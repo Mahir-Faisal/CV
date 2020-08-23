@@ -1,0 +1,252 @@
+body{
+	background-color: #b2ebf2;
+	margin: 0px;
+  text-align: center;
+  padding: 20px;
+	padding-top: 170px;
+	font-family: 'Recursive', sans-serif;
+	font-size: 1.3em;
+	color: #40514e;
+}
+
+h1{
+	margin: 0px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 4.62rem;
+	color: #0f4c75;
+}
+
+.intro{
+	margin: auto;
+	width: 40%;
+	line-height: 2;
+}
+
+hr{
+	border: dotted #838383 6px;
+	border-bottom: none;
+	width: 6%;
+	margin: 70px auto;
+	text-align: auto;
+}
+
+p{
+	line-height: 2;
+}
+
+h2.subtitle{
+	font-weight: normal;
+	font-size: 2.2rem;
+	color: #0f4c75;
+	padding: 50px;
+}
+
+h2{
+	font-size: 2.2rem;
+	color: #0f4c75;
+	padding: 50px;
+}
+
+.Box-1 {
+	background-color: #b2ebf2;
+	margin: 0px;
+	margin-left: 0px;
+	padding: 20px;
+}
+
+img.cloud-1{
+	position: absolute;
+	right: 200px;
+	top: 200px;
+	font-size: 3rem;
+}
+
+img.cloud-2{
+	position: absolute;
+	right: 900px;
+	top: 310px;
+	font-size: 3rem;
+}
+
+img.cloud-3{
+	position: absolute;
+	right: 720px;
+	top: 120px;
+	font-size: 3rem;
+}
+
+.Box-2{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.Box-3{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #00bcd4;
+	display: block;
+	float: left;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	padding-top: 40px;
+	color: #000000;
+}
+/*
+.fixedmenu{
+	background-color: #00bcd4;
+	margin-top: 0px;
+	display: block;
+	position: absolute;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	padding-top: 25px;
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+	float: left;
+	text-align: left;
+	color: #cffffe;
+}
+*/
+.masterbox{
+	background-color: #cffffe;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 95px;
+	display: block;
+	border-radius: 50px;
+}
+
+.footer-link{
+	color: #000000;
+	text-decoration: none;
+}
+
+.footer-link:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h3{
+	color: #0f4c75;
+}
+
+.profile-img{
+	display: inline;
+	height: 320px;
+}
+
+.firstpara{
+	display: inline;
+}
+
+.skill-row-1{
+	width: 70%;
+	margin: 60px auto 60px auto;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.skill-row-2{
+	width: 70%;
+	margin: 60px auto 60px auto;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.skill-row-3{
+	width: 70%;
+	margin: 60px auto 60px auto;
+	text-align: left;
+	line-height: 1.5;
+}
+.computer{
+	width: 35%;
+	height: 35%;
+	float: left;
+	margin-right: 50px;
+}
+
+.Origami{
+	width: 35%;
+	float: right;
+	margin-left: 50px;
+}
+
+.Calculator{
+	width: 35%;
+	float: left;
+	margin-right: 50px;
+}
+.skill-row-2-para{
+	padding-top: 28px;
+}
+.skill-row-3-para{
+	padding-top: 28px;
+}
+.contact-message{
+	width: 40%;
+	margin: 40px auto 60px auto;
+}
+
+.btn{
+	border-top: 1px solid #96d1f8;
+	background: #0048ff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1989F3), to(#214A8E));
+	background: -webkit-linear-gradient(top, #1989F3, #214A8E);
+	background: -moz-linear-gradient(top, #1989F3, #214A8E);
+	background: -ms-linear-gradient(top, #1989F3, #214A8E);
+	background: -o-linear-gradient(top, #1989F3, #214A8E);
+	padding: 20px 40px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Sans-Serif, Arial;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.btn:hover {
+	border-top: 1px solid #96d1f8;
+	background: #0048ff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#60ACFF), to(#0071CD));
+	background: -webkit-linear-gradient(top, #60BCFF, #0071CD);
+	background: -moz-linear-gradient(top, #60BCFF, #0071CD);
+	background: -ms-linear-gradient(top, #60BCFF, #0071CD);
+	background: -o-linear-gradient(top, #60BCFF, #0071CD);
+	padding: 20px 40px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Sans-Serif, Arial;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.btn:active {
+	border-top-color: #1b435e;
+	background: #1b435e;
+	}
